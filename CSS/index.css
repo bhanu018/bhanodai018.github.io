@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../ASSETS/insimg1.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+.headcon{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.556);
+    position: relative;
+}
+.headcon .gradlogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:7px;
+    left: 20px;
+}
+.headcon h2{
+    position: absolute;
+    top:110px;
+    color: white;
+    left:180px;
+    font-size:40px;
+}
+.headcon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    color: white;
+}
+.headcon p{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left:25%;
+    text-align: center;
+    font-size: 20px;
+}
+.headcon .navbar{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.headcon .navbar .navli{
+    margin-left: 40px;
+    list-style: none;
+}
+.headcon .navbar .navli a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.headcon input{
+    width: 180px;
+    height:40px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    top: 500px;
+    left:45%;
+    font-size:25px;
+    transition: all 0.6s;
+}
+.headcon input:hover{
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+/*-------------Our Courses Container---------------*/
+.coursecon{
+    width: 100%;
+    height: 600px;
+
+}
+.coursecon .coursecontent{
+    float: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    width:25%;
+    height: 400px;
+    margin-left: 90px;
+    background-color: #fff3f2;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+.coursecon h1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coursecon p{
+    line-height:30px;
+    align-items: left;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+/*-------------our Global Campus-----------*/
+.campuscon{
+    width: 100%;
+    height: 600px;
+}
+.campuscon .globalc{
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+.campuscon .globalc img{
+    width:100%;
+    height: 440px;
+    background-size: 100%;
+    border-radius: 10px;
+}
+.campuscon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing:2px;
+}
+.campuscon h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/*--------------our Facilities container-----------------*/
+.facilitycon{
+    width: 100%;
+    height: 600px;
+}
+.facilitycon .facilityc{
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+.facilitycon .facilityc img{
+    width:100%;
+    height: 440px;
+    background-size: 100%;
+    border-radius: 10px;
+}
+.facilitycon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing:5px;
+}
+.facilitycon h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/*----------------Footer container-------------------*/
+.footercon{
+    width: 100%;
+    height:80px;
+    background-color: grey;
+}
+.footercon h2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.footercon i{
+    position: relative;
+    bottom:23px;
+    left: 200px;
+    margin-left: 30px;
+    font-size:20px;
+}
+.footercon a{
+    text-decoration: none;
+    color: black;
+}
+/*----------------------css code for smaller screen also-----------------------*/
+@media(max-width:700px){
+    body{
+        background-size:100vw 100vh;
+    }
+    .headcon{
+        width:100vw;
+        height: 100vh;
+    }
+    .headcon .gradlogo{
+        width: 100px;
+        height: 100px;
+        top:70px;
+        left: 20px;
+    }
+    .headcon h2{
+        top:130px;
+        color: white;
+        left:90px;
+        font-size:20px;
+    }
+    .headcon h1{
+        font-size:20px;
+        left:8%;
+        color: white;
+    }
+    .headcon p{
+        top:290px;
+        left:15%;
+        right: 15%;
+        text-align: center;
+        font-size:15px;
+    }
+    .headcon .navbar{
+        top: 40px;
+        right:20px;
+    }
+    .headcon .navbar .navli a{
+        font-size:14px;
+    }
+    .headcon .navbar .navli{
+        margin-left:10px;
+    }
+    .headcon input{
+        width: 160px;
+        top:530px;
+        left:30%;
+        font-size:20px;
+    }
+    /*-------------Our Courses Container---------------*/
+.coursecon{
+    width: 100vw;
+    height: 1750px;
+
+}
+.coursecon .coursecontent{
+    width:70%;
+    height:400px;
+    margin-top:120px;
+    margin-left:50px;
+}
+.coursecon h1{
+    padding-top:20px;
+}
+/*-------------our Global Campus-----------*/
+.campuscon{
+    width: 100vw;
+    height: 1750px;
+}
+.campuscon .globalc{
+    width: 70%;
+    height: 400px;
+    margin-top:120px;
+    margin-left:50px;
+} 
+.campuscon h1{
+    margin-top:0px;
+}
+.campuscon h2{
+   
+    margin-top: 20px;
+}
+/*--------------our Facilities container-----------------*/
+.facilitycon{
+    width: 100vw;
+    height:1720px;
+}
+.facilitycon .facilityc{
+    width:70%;
+    height: 400px;
+    margin-top:120px;
+    margin-left:50px;
+}
+.facility h1{
+    margin-top: 10px;
+}
+.facilitycon h2{
+    margin-top: 20px;
+}
+/*----------------Footer container-------------------*/
+.footercon{
+    width: 100vw;
+}
+.footercon h2{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.footercon i{
+    bottom:20px;
+    left:140px;
+    margin-left:7px;
+    font-size:15px;
+}
+}

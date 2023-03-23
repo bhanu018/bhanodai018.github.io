@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../ASSETS/contact_us.jpg);
+    background-size: 100% 65vh;
+    background-repeat: no-repeat;
+}
+.headcon{
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.655);
+}
+.headcon .gradlogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:7px;
+    left: 20px;
+}
+.headcon h2{
+    position: absolute;
+    top:110px;
+    color: white;
+    left:180px;
+    font-size:40px;
+}
+.headcon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: 210px;
+    left:40%;
+    color: white;
+}
+/*------------------sec content---------------*/
+.seccon{
+    width: 100%;
+    height:1200px;
+}
+.seccon iframe{
+        border-radius: 20px;
+        border: 10px solid red;
+        position: relative;
+        top: 20px;
+        left: 400px;
+}
+.seccon h2{
+    padding-top: 90px;
+    padding-left: 400px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.seccon .contcon{
+    width: 50%;
+    height: 330px;
+    background-color:#fff3f2;
+    position: relative;
+    top: 50px;
+    left:300px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+.seccon .contcon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 5px;
+}
+.seccon .contcon h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:40px;
+    padding-top: 20px;
+}
+.seccon .contcon p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccon .contcon i{
+    position: relative;
+    bottom:250px;
+    left:210px;
+    color: red;
+    font-size: 25px;
+    margin-top: 55px;
+}
+.seccon .emailcon h4{
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-left: 90px;
+    color: red;
+}
+.seccon .ia{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    color:black;
+    border-color: red;
+    font-size: 20px;
+}
+.seccon .ib{
+    width:120px;
+    height: 30px;
+    margin-left:90px;
+    margin-top: 20px;
+    font-size: 20px;
+    color:white;
+    background-color: red;
+    border: none;
+}
+/*----------------Footer container-------------------*/
+.footercon{
+    width: 100%;
+    height:80px;
+    background-color: grey;
+}
+.footercon h2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.footercon i{
+    position: relative;
+    bottom:23px;
+    left: 200px;
+    margin-left: 30px;
+    font-size:20px;
+}
+.footercon a{
+    text-decoration: none;
+    color: black;
+}
+/*-----------------css for smaller screen-----------------*/
+@media(max-width:700px){
+    body{
+        background-size:100vw 75vh;
+       }
+       .headcon{
+        width:100vw;
+        height: 75vh;
+    }
+    .headcon .gradlogo{
+        width:100px;
+        height:100px;
+        top:50px;
+        left:20px;
+    }
+    .headcon h2{
+        top:100px;
+        left:100px;
+        font-size:20px;
+    }
+    .headcon h1{
+        top:300px;
+        left: 100px;
+        font-size:30px;
+    }
+    .seccon{
+        width:100vw;
+        height:1000px;
+    }
+    .seccon iframe{
+            width:300px;
+            height: 200px;
+            position: relative;
+            top: 20px;
+            left:25px;
+    }
+    .seccon h2{
+        padding-left:100px;
+        text-decoration: underline;
+        font-size:25px;
+    }
+    .seccon .contcon{
+        width: 80%;
+        height:330px;
+        top: 50px;
+        left:25px;
+    }
+    .seccon .contcon h1{
+        font-size:20px;
+        padding-top: 20px;
+    }
+    .seccon .contcon h3{
+        line-height:40px;
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .seccon .contcon p{
+       font-size: 10px;
+    }
+    .seccon .contcon i{
+        bottom:240px;
+        left:30px;
+        font-size: 20px;
+        margin-top:60px;
+    }
+    .seccon .emailcon h4{
+        font-size:15px;
+        padding-top: 90px;
+        padding-left: 40px;
+        color: red;
+    }
+    .seccon .ia{
+        margin-left: 40px;
+    }
+/*----------------Footer container-------------------*/
+.footercon{
+    width: 100vw;
+}
+.footercon h2{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.footercon i{
+    bottom:20px;
+    left:140px;
+    margin-left:7px;
+    font-size:15px;
+}
+}

@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../ASSETS/about_us.jpg);
+    background-size: 100% 65vh;
+    background-repeat: no-repeat;
+}
+.headcon{
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.668);
+}
+.headcon .gradlogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:7px;
+    left: 20px;
+}
+.headcon h2{
+    position: absolute;
+    top:110px;
+    color: white;
+    left:180px;
+    font-size:40px;
+}
+.headcon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top:250px;
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+/*--------------About us container-----------------*/
+.aboutuscon{
+    width: 100%;
+    height:600px;
+    position: relative;
+}
+.aboutuscon .aumatter{
+    width: 50%;
+    height:450px;
+    background-color:#fff3f2;
+    position: absolute;
+    top:15%;
+    float: left;
+}
+.aboutuscon .aumatter h2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.aboutuscon .aumatter p{
+    word-spacing: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align:left;
+    line-height: 35px;
+}
+.aboutuscon .auimg{
+    width: 50%;
+    height: 450px;
+    position: absolute;
+    top: 15%;
+    left:50%;
+}
+.aboutuscon .auimg img{
+    width:100%;
+    height:100%;
+    background-size: 100%;
+}
+.aboutuscon  input{
+    width: 200px;
+    height: 60px;
+    background-color: grey;
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.aboutuscon input:hover{
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+/*------------back button container----------*/
+.backcon{
+    width: 100%;
+    height:100px;
+    position: relative;
+}
+.backcon .backbutton{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    bottom:30px;
+    right: 60px;
+    font-size:15px;
+    background-image: linear-gradient(45deg,grey,white);
+    transition: all 1s;
+}
+.backcon .backbutton:hover{
+    background-image:linear-gradient(45deg,red,rgb(180, 49, 49));
+    color: white;
+    border-color: white;
+}
+/*------------footer container---------*/
+.footercon{
+    width: 100%;
+    height:80px;
+    background-color: grey;
+}
+.footercon h2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.footercon i{
+    position: relative;
+    bottom:23px;
+    left: 200px;
+    margin-left: 30px;
+    font-size:20px;
+}
+.footercon a{
+    text-decoration: none;
+    color: black;
+}
+/*------------for smaller screen code-------------*/
+@media(max-width:700px){
+    body{
+        background-size:100vw 75vh;
+    }
+    .headcon{
+        width: 100vw;
+        height: 75vh;
+    }
+    .headcon .gradlogo{
+        width: 100px;
+        height: 100px;
+        top:40px;
+        left: 20px;
+    }
+    .headcon h2{
+        top:100px;
+        color: white;
+        left:90px;
+        font-size:20px;
+    }
+ /*--------------About us container-----------------*/
+.aboutuscon{
+    width:100vw;
+    height:1500px;
+}
+.aboutuscon .aumatter{
+    width:80%;
+    height:650px;
+   top: 50px;
+   left: 10%;
+}
+.aboutuscon .auimg{
+    width: 80%;
+    height: 650px;
+    position: absolute;
+    top:54%;
+    bottom: 50px;
+    left:10%;
+}
+.aboutuscon  input{
+    width:150px;
+    height: 30px;
+     right: 80px;
+     top: 690px;
+    font-size:15px;
+}
+/*-------------------------back button--------------*/
+.backcon{
+    width: 100vw;
+}
+.backcon .backbutton{
+    width:150px;
+    height: 40px;
+    bottom:30px;
+    right:80px;
+    font-size:15px;
+}
+/*----------------Footer container-------------------*/
+.footercon{
+    width: 100vw;
+}
+.footercon h2{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.footercon i{
+    bottom:20px;
+    left:140px;
+    margin-left:7px;
+    font-size:15px;
+}
+}

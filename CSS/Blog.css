@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+body{
+   background-image: url(../ASSETS/Blog.webp);
+   background-size: 100% 65vh;
+   background-repeat: no-repeat;
+}
+.headcon{
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.605);
+}
+.headcon .gradlogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:7px;
+    left: 20px;
+}
+.headcon h2{
+    position: absolute;
+    top:110px;
+    color: white;
+    left:180px;
+    font-size:40px;
+}
+.headcon h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top:250px;
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+.secccon{
+    width:100%;
+    height:1000px;
+    position: relative;
+}
+.secccon .pic{
+    width: 40%;
+    height:400px;
+    background-color: black;
+    position: relative;
+    top:100px;
+    left:80px;
+}
+.cert{
+    width: 100%;
+    height: 100%;
+}
+.tabcon{
+    width:35%;
+    height: 400px;
+    position: relative;
+    bottom:300px;
+    left:750px;
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px black;
+}
+.tabcon h3{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.tabcon pre{
+    font-size: 20px;
+    font-weight: solid;
+    padding-top:30px;
+    padding-left: 40px;
+    line-height:23px;
+}
+.commentcon{
+    width:35%;
+    height:300px;
+    background-color: white;
+    position: relative;
+    bottom:150px;
+    left: 100px;
+}
+.commentcon h1{
+    color: red;
+    padding-left:25%;
+}
+input{
+     width:400px;
+     height: 30px;
+     margin-left: 60px;
+     margin-top: 30px;
+     border-color: red;
+     background-color: transparent;
+}
+.d{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+/*----------------Footer container-------------------*/
+.footercon{
+    width: 100%;
+    height:80px;
+    background-color: grey;
+}
+.footercon h2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.footercon i{
+    position: relative;
+    bottom:23px;
+    left: 200px;
+    margin-left: 30px;
+    font-size:20px;
+}
+.footercon a{
+    text-decoration: none;
+    color: black;
+}
+/*----------------css for smaller screen---------------------------*/
+@media(max-width:700px){
+    body{
+        background-size:100vw 75vh;
+    }
+    .headcon{
+        width:100vw;
+        height: 75vh;
+    }
+    .headcon .gradlogo{
+        width: 100px;
+        height: 100px;
+        top:80px;
+        left: 20px;
+    }
+    .headcon h2{
+        top:150px;
+        color: white;
+        left:90px;
+        font-size:20px;
+    }
+    .headcon h1{
+        font-size:20px;
+        padding-top: 350px;
+        padding-left: 20px;
+    }
+    .secccon{
+        width:100vw;
+        height:2150px;
+        position: relative;
+    }
+    .secccon .pic{
+        width:60%;
+        height:400px;
+        margin-left:0px;
+    }
+    /*--------------------table content--------------------------*/
+    .tabcon{
+        width:90%;
+        height:560px;
+        position: relative;
+        top:300px;
+        left:10px;
+    }
+    .tabcon h3{
+        font-size:50px;
+    }
+    .tabcon pre{
+        font-size:15px;
+        line-height:30px;
+        padding-left:5%;
+    }
+    /*--------------------comment  content-------------------------*/
+    .commentcon{
+        width:40%;
+        height:300px;
+        bottom:-500px;
+    }
+    .commentcon h1{
+        font-size:20px;
+        padding-left:0%;
+    }
+    input{
+         width:300px;
+         height:40px;
+         font-size:20px;
+         color: black;
+         margin-left:-80px;
+    }
+    .d{
+        background-color: red;
+        color: white;
+        font-size:20px;
+    }
+    /*----------------Footer container-------------------*/
+.footercon{
+    width:100vw;
+}
+.footercon h2{
+    font-size:15px;
+    padding-top: 30px;
+    padding-left:10px;
+}
+.footercon i{
+    bottom:20px;
+    left:130px;
+    margin-left:25px;
+    font-size:15px;
+}
+    
+}
